@@ -22,3 +22,9 @@ def main():
 
     # Greeting.
     print("Hello! Let's find the LCM, remainder and multiples of 3 numbers!")
+
+    # Ask User for a number.
+    user1_as_string = input("Enter the first number :")
+    user2_as_string = input("Enter a second number :")
+    user3_as_string = input("Enter a third number :")
+    print("")
