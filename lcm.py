@@ -28,3 +28,14 @@ def main():
     user2_as_string = input("Enter a second number :")
     user3_as_string = input("Enter a third number :")
     print("")
+
+    # Try to convert a string to int.
+    try:
+        user1_as_number = round(float(user1_as_string))
+        try:
+            user2_as_number = round(float(user2_as_string))
+            try:
+                user3_as_number = round(float(user3_as_string))
+
+
+
