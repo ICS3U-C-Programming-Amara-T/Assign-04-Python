@@ -37,10 +37,17 @@ def main():
             try:
                 user3_as_number = round(float(user3_as_string))
 
-# Check if the number is positive.
+            # Check if the number is positive.
                 if user1_as_number > 0:
                     if user2_as_number > 0 and user3_as_number > 0:
                         if user2_as_number > 0 and user3_as_number > 0:
+ # Calculate the LCM.
+                            answer = lcm(
+                                user1_as_number, user2_as_number, user3_as_number
+                            )
+                            print(
+                                f"The LCM of {user1_as_number}, {user2_as_number} and {user3_as_number} is {answer}"
+                            )
 
 
 
