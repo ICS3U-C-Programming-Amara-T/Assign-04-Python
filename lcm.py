@@ -6,6 +6,7 @@
 
 # This is a program calculates the LCM of 3 numbers!
 
+
 def lcm(number_1, number_2, number_3):
     counter = 1
     while True:
@@ -17,8 +18,8 @@ def lcm(number_1, number_2, number_3):
         ):
             return counter
 
-def main():
 
+def main():
 
     # Greeting.
     print("Hello! Let's find the LCM, remainder and multiples of 3 numbers!")
@@ -37,11 +38,11 @@ def main():
             try:
                 user3_as_number = round(float(user3_as_string))
 
-            # Check if the number is positive.
+                # Check if the number is positive.
                 if user1_as_number > 0:
                     if user2_as_number > 0 and user3_as_number > 0:
                         if user2_as_number > 0 and user3_as_number > 0:
- # Calculate the LCM.
+                            # Calculate the LCM.
                             answer = lcm(
                                 user1_as_number, user2_as_number, user3_as_number
                             )
@@ -49,7 +50,7 @@ def main():
                                 f"The LCM of {user1_as_number}, {user2_as_number} and {user3_as_number} is {answer}"
                             )
 
-# Check if LCM is divisible by two or has a remainder of 1.
+                            # Check if LCM is divisible by two or has a remainder of 1.
                             match answer % 2:
                                 case 0:
                                     print(
@@ -62,7 +63,7 @@ def main():
                                 case 2:
                                     print("Invalid answer ")
 
- # Calculates and Displays the first three multiples of the LCM.
+                            # Calculates and Displays the first three multiples of the LCM.
                             print("The first three multiples of the LCM is:")
                             for counter in range(1, 4):
                                 print(answer * counter)
@@ -71,7 +72,7 @@ def main():
                         print("Please enter a positive number")
                 else:
                     print("Please enter a positive number")
-         
+
             except Exception:
                 print("The third input is not a number")
         except Exception:
@@ -82,9 +83,5 @@ def main():
     print("Thanks for playing!")
 
 
-
-
 if __name__ == "__main__":
     main()
-
-
