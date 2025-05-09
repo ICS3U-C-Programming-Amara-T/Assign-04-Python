@@ -49,6 +49,18 @@ def main():
                                 f"The LCM of {user1_as_number}, {user2_as_number} and {user3_as_number} is {answer}"
                             )
 
+# Check if LCM is divisible by two or has a remainder of 1.
+                            match answer % 2:
+                                case 0:
+                                    print(
+                                        f"The LCM {answer} of your inputs {user1_as_number, user2_as_number, user3_as_number} is divisible by 2"
+                                    )
+                                case 1:
+                                    print(
+                                        f"The LCM {answer} of your inputs {user1_as_number, user2_as_number, user3_as_number} has a remainder of 1"
+                                    )
+                                case 2:
+                                    print("Invalid answer ")
 
 
 
