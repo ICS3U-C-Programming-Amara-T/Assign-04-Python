@@ -72,5 +72,19 @@ def main():
                 else:
                     print("Please enter a positive number")
          
+            except Exception:
+                print("The third input is not a number")
+        except Exception:
+            print("The second input is not a number")
+    except Exception:
+        print("The first input is not a number")
+    # Closing Statement.
+    print("Thanks for playing!")
+
+
+
+
+if __name__ == "__main__":
+    main()
 
 
