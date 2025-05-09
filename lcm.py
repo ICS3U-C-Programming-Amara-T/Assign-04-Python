@@ -17,3 +17,8 @@ def lcm(number_1, number_2, number_3):
         ):
             return counter
 
+def main():
+
+
+    # Greeting.
+    print("Hello! Let's find the LCM, remainder and multiples of 3 numbers!")
