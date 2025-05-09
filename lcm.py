@@ -62,5 +62,15 @@ def main():
                                 case 2:
                                     print("Invalid answer ")
 
+ # Calculates and Displays the first three multiples of the LCM.
+                            print("The first three multiples of the LCM is:")
+                            for counter in range(1, 4):
+                                print(answer * counter)
+                            print(" ")
+                    else:
+                        print("Please enter a positive number")
+                else:
+                    print("Please enter a positive number")
+         
 
 
