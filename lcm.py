@@ -41,7 +41,6 @@ def main():
                 # Check if the number is positive.
                 if user1_as_number > 0:
                     if user2_as_number > 0 and user3_as_number > 0:
-                        if user2_as_number > 0 and user3_as_number > 0:
                             # Calculate the LCM.
                             answer = lcm(
                                 user1_as_number, user2_as_number, user3_as_number
